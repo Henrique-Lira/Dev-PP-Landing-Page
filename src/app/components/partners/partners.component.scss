@@ -4,7 +4,7 @@
         padding: 0;
     }
     .partners-container{
-        padding-left: 22vw;
+        padding-left: 6.25rem;
         h1{
             letter-spacing: 0.16em;
             text-transform: uppercase;
@@ -19,48 +19,48 @@
         .grid{
             display: grid;
             grid-template-columns: auto auto auto auto;
-            margin-left: -20px;
 
             .card{
-                background-image: url(../../../assets/images/background-image/Group.png);
-                background-color: #010814;
-                margin: 1.7rem;
+                width: 20.563rem;
+                height: 9.5rem;
+                background-image: url(../../../assets/images/partners/background.png);
+                background-size: 100% 100%;
+                background-color: #f3f5f700;
+                margin-bottom: 2.375rem;
                 padding: 2rem;
                 background-repeat: no-repeat;
+                
+                img{
+                    width: 70%;
+                    margin: auto;  
+                }
+            }
 
-                .card2{
-                    width: 100%;
-                    height: 100%;
-                    background-repeat: no-repeat;
+            .foregon{
+                img{
+                    width: 9.5rem;
+                    margin: auto;  
+                }
+            }
 
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    
-                    color: white;
-                    p{
-                        text-transform: uppercase;
-                        background: linear-gradient(91.06deg, #FFFFFF 2.26%, #7589FF 80.78%);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        background-clip: text;
-                        text-fill-color: transparent;
-                        font-weight: 700;
-                        font-size: 1.5rem;
-                        line-height: 130%;
-                        letter-spacing: 0.16em;
-                        padding: 2rem;
-                    }
-                    img{
-                        width: 70%;
-                    }
+            .fip{
+                img{
+                    width: 12.75rem;
+                    margin: auto;  
+                }
+            }
+
+            .partners{
+                img{
+                    width: 12.5rem;
+                    margin: auto;  
+                    filter: opacity(0.4) drop-shadow(0 0 0 rgb(18, 17, 17));
                 }
             }
         }
     }
-        .center{
-            display: flex;
+    .center{
+        display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
@@ -86,6 +86,17 @@
         .partners-container{
             .grid{
                     display: grid;
+                    grid-template-columns: auto auto auto;
+            }
+        }
+    }
+}
+
+@media  screen and (max-width: 1174px) {
+    .partners{
+        .partners-container{
+            .grid{
+                    display: grid;
                     grid-template-columns: auto auto;
             }
         }
@@ -96,7 +107,7 @@
     .partners{
         .partners-container{
             padding-left: 3vw;
-            padding-right: 24px;
+            text-align: center;
             h1{
                 background: linear-gradient(91.06deg, #ffffff 2.26%, #7589FF 80.78%);
                 -webkit-background-clip: text;
@@ -108,8 +119,9 @@
                 letter-spacing: 0.16em;
                 margin-bottom: 60px;
             }
-
             .grid{
+                    text-align: center;
+                    margin-left: 2.813rem;
                     display: grid;
                     grid-template-columns: auto;
                     .card{
