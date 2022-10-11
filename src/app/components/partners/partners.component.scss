@@ -23,38 +23,32 @@
             .card{
                 width: 20.563rem;
                 height: 9.5rem;
-                background-image: url(../../../assets/images/partners/background.png);
-                background-size: 100% 100%;
-                background-color: #f3f5f700;
-                margin-bottom: 2.375rem;
-                padding: 2rem;
+                background-image: url(../../../assets/images/background-image/Group.png);
+                background-color: transparent;
                 background-repeat: no-repeat;
-                
+                align-items: center;
+                margin-bottom: 2.375rem;
                 img{
-                    width: 70%;
-                    margin: auto;  
+                    width: 9.5rem;
+                    margin: auto;
                 }
             }
-
             .foregon{
                 img{
                     width: 9.5rem;
-                    margin: auto;  
+                    // margin: ;
                 }
             }
-
             .fip{
                 img{
                     width: 12.75rem;
-                    margin: auto;  
+                    // margin: ;
                 }
             }
-
-            .partners{
+            .new-partner{
                 img{
                     width: 12.5rem;
-                    margin: auto;  
-                    filter: opacity(0.4) drop-shadow(0 0 0 rgb(18, 17, 17));
+                    filter: opacity(0.4) drop-shadow(0 0 0 rgb(18,17,17));
                 }
             }
         }
@@ -92,7 +86,7 @@
     }
 }
 
-@media  screen and (max-width: 1174px) {
+@media screen and (max-width: 1174px) {
     .partners{
         .partners-container{
             .grid{
@@ -105,9 +99,12 @@
 
 @media screen and (max-width: 800px) {
     .partners{
+        // margin: auto;
+        // text-align: center;
         .partners-container{
-            padding-left: 3vw;
-            text-align: center;
+            padding-left: 13.250vw;
+            padding-right: 24px;
+
             h1{
                 background: linear-gradient(91.06deg, #ffffff 2.26%, #7589FF 80.78%);
                 -webkit-background-clip: text;
@@ -124,9 +121,8 @@
                     margin-left: 2.813rem;
                     display: grid;
                     grid-template-columns: auto;
-                    .card{
-                        width: 90%;
-                    }
+                    text-align: center;
+                    // margin-left: 2.813rem;
                 }
             }
         }   
